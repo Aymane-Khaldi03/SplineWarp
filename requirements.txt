@@ -1,0 +1,13 @@
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.7.0
+matplotlib>=3.7.0
+scikit-image>=0.20.0
+pandas>=2.0.0
+seaborn>=0.12.0
+PyWavelets>=1.4.0   # required by FDSI (otherwise it silently falls back to VTPSI)
+tqdm>=4.65.0
+# PyTorch with CUDA 12.8 (RTX 5070 Ti / Blackwell sm_120 needs 2.7+)
+# Install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7.0
+torchvision>=0.22.0
